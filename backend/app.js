@@ -8,7 +8,7 @@ const fav = require("./routes/favourite");
 const order = require("./routes/order");
 require("dotenv").config();
 
-const PORT = process.env.PORT ;
+const PORT = process.env.PORT ||1000 ;
 app.use(cors());
 app.use(express.json());
 
